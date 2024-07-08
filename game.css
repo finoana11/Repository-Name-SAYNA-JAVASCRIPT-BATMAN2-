@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{  
+    color:white;
+    background: black;
+    background-image: url(GA/Batgame_1.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+}
+header{
+    height: 132px;
+    width: 1120px;
+    border: 1px outset #BCBBBD;
+    margin-left: 102px;
+    margin-right: 102px;
+}
+
+
+#logohome{
+    width: 8%;
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+#rouge{
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    left: 820px;
+}
+#game{
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+    left: 850px;
+}
+#game:link{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+.DEBUT{
+    position: relative;
+    height: 110vh;
+    width: 1120px;
+    border-bottom: 1px outset black;
+    border-left: 1px outset #BCBBBD;
+    border-right: 1px outset #BCBBBD;
+    border-top: 1px outset black;
+    margin-left: 102px;
+    margin-right: 102px;
+}
+.CENTER{
+    font-weight: bolder;
+    position: relative;
+    padding-left: 70px;
+    top: 200px;
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 2em;
+}
+#logo_bat_flèche{
+    width: 7%;
+    position: relative;
+    left: 1082px;
+    top: 200px;
+}
+#icon_facebook{
+    width: 1.5%;
+    position: relative;
+    left: 1112px;
+    top: 210px;
+}
+#icon_instagram{
+    width: 1.5%;
+    position: relative;
+    left: 1112px;
+    top: 230px;;
+}
+#icon_twitter{
+    width: 1.5%;
+    position: relative;
+    left: 1112px;
+    top: 250px;
+}
+#logo_bat_flèche_2{
+    
+    width: 7%;
+    position: relative;
+    left: 1082px;
+    top: 260px;
+}
+#ASIDE{
+    display: flex;
+    flex-direction: column;
+}
+.APRES{
+    background-color: black;
+    margin-left: 102px;
+    margin-right: 102px;
+    width: 1120px;
+    height: 160vh;
+    border-left: 1px outset #BCBBBD;
+    border-right: 1px outset #BCBBBD;
+    border-bottom: 1px outset transparent;
+    border-top: 1px outset transparent;
+} 
+#flèche_down_header{
+    position: relative;
+    left: 500px;
+    top: 50px;
+}
+h2{
+    text-transform: uppercase;
+    position: relative;
+    left: 250px;
+    top: 170px;
+}
+#Batgame_2{
+    position: relative;
+    width: 70%;
+    height: 400px;
+    left: 150px;
+    top: 190px;
+}
+[type=button]{
+    color: white;
+    background-color: rgb(241, 121, 77);
+    padding: 20px 60px 20px 60px;
+    border: 1px solid transparent;
+    position: relative;
+    top: 250px;
+    left: 450px;
+}
+#start:hover{
+background-color: orangered;
+}
+#footer1{
+    position: relative;
+    top: 20px;
+    left: 450px;
+}
+footer{
+    position: relative;
+    bottom: 200px;
+    border-top:1PX solid transparent;
+    border-bottom: 1px solid transparent;
+    border-left: 1px solid #BCBBBD;
+    border-right: 1px solid #BCBBBD;
+    width: 1120px;
+    height: 10vh;
+    margin-left: 102px;
+    margin-right: 102px;
+}
+#logo_sayna{
+    position: relative;
+    width: 2.5%;
+}
+#x{
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+}
+#DC{
+    position: relative;
+    width: 2.5%;
+    left: 10px;
+}
+#facebook{
+    position: relative;
+    width: 1.3%;
+    left: 30px;
+    bottom: 5px;
+}
+#ig{
+    position: relative;
+    width: 1.3%;
+    left: 50px;
+    bottom: 5px;
+}
+#tw{
+    position: relative;
+    width: 1.3%;
+    left: 70px;
+    bottom: 5px;
+}
+#projet{
+    font-size: 10px;
+    position: relative;
+    left: 300px;
+}
+#WB{
+    position: relative;
+    top: 10px;
+    left: -10px;
+}
+.apres2{
+    position: relative;
+    bottom: 120px;
+   width: 1120px;
+   height: 120vh; 
+   margin-left: 102px;
+   margin-right: 102px;
+   border-left: 1px outset #BCBBBD;
+   border-right: 1px outset #BCBBBD;
+}
+.RESULT1{
+    display: none;
+}
+.RESULT2{
+    display: none;
+}
+.RESULT3{
+    display: none;
+}
+
+#recommencer{
+    position: relative;
+    top: 100px;
+    left: 200px;
+    display: block;
+    border: none;
+    background: rgb(238,105,57);
+    padding: 15px;
+}
+
+.button_next{
+    width: 300px;
+    height: 60px;
+    font-size: 22px;
+    background: linear-gradient(to right,rgb(238, 105, 57), rgb(53, 45, 51));
+    color: white;
+    position: relative;
+    bottom: 200px;
+    left: 500px;
+    display:  block;
+
+}
+.buttonStart{
+    color: white;
+    width: 250px;
+    height: 50px;
+    background: linear-gradient(to right,rgb(238,105,57), rgb(53,45,51));
+     position: relative;
+     top:  220px;
+     left: 450px;
+     display: block;
+}
+.container{
+    position: relative;
+    bottom: 400px;
+    height: 60vh;
+    width: 70vh;
+    background: transparent;
+    grid-template-columns: 100%;
+    grid-template-rows: 90% 10%;
+    justify-content: center;
+    align-items: center;
+    display: none;
+
+}
+    .score {
+    font-size: 25px;
+    position: relative; 
+    bottom: 500px;
+    left: 100px;
+}
+.questions{
+    color: #BCBBBD;
+    height: 99%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 75%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.questions p { 
+    color: white;
+    background: transparent;
+    height: 45%;
+    position: relative;
+    left: 500px;
+    bottom: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.button{
+    position: relative;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+
+}
+.button button {
+    width: 50%;
+    padding: 8px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.answers{
+    color: white;
+    position: relative;
+ left: 500px;
+ bottom: 350px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ gap: 10%;
+ background: transparent;
+ height: 100%;
+ margin-bottom: 5px;
+
+}
+.answer_button{
+    color: white;
+    background: gray;
+    width: 75%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    
+}
+.answer_button.valid{
+    border: 2px solid  blue;
+}
+.answer_button.invalid{
+    border: 2px solid tomato;
+}
+@media screen and (max-width:768px){
+    .answer_button{width: 60%;
+    }
+}
+@media screen and (max-width:484px){
+    .container{
+        width: 90vw;
+    }
+    .welcome{
+        width: 50vw;
+    }
+    .welcome p {
+        font-size: 20px;
+    }
+    .score{
+        font-size: 22px;
+        width: 20vh;
+    }
+    #batgame_2{
+ width: 100%;
+ justify-content: center;
+ place-items: center;
+    }
+}
+
+.imgQuizz{
+    position: relative;
+    bottom: 600px;
+    left: 200px;
+
+}
+img .gauche{
+    width: 1000px;
+    height: 1000px;
+}
+.gauche{
+  width: 100%;
+  height: 100px;
+  display: flex;
+  animation: slide 16s ease-out;
+
+}
+@keyframes slide{
+    0%{
+        transform: translatex(0);
+    }
+    25%{
+transform: translatex(0);
+    }
+    30%{ transform: translatex(-100%);}
+
+    50%{
+        transform: translatex(-100%);
+    }
+    55%{
+        transform: translatex(-200%);
+    }
+    75%{
+        transform: translatex(-200%);
+    }
+    80%{
+        transform: translatex(-300%);
+    }
+    100%{
+        transform: translatex(-300%);
+    }
+}
+.droit{
+position: absolute;
+display: flex;
+    animation: slide 10s ease-out;
+
+    
+}
+.BAS{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 200px;
+}
+.container-image{
+width: 12vmin;
+position: absolute;
+transform: translate(-60%,-40%);
+top: 30%;
+left: 40%;
+overflow: hidden;
+border: 1px solid transparent;
+
+}
+.result-show{
+    position: relative;
+    bottom: 200px;
+    left: 500px;
+    color: blanchedalmond;
+    position: relative;
+    left: 200px;
+    width: 500px;
+    height: 25vh;
+    background: linear-gradient(to right,rgb(238, 105, 57), rgb(53, 45, 51));
+    border: none;
+    border-radius: 28px;
+    display: none;
+}

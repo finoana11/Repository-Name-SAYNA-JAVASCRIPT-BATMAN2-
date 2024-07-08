@@ -1,0 +1,832 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+
+body{
+    font-size: 18px;
+    background: black;
+    color: white;
+    letter-spacing: normal;
+    font-family: 'rajdhani' sans-serif;
+    object-fit: scale-down;
+    background-color: black;
+    overflow-x: hidden;
+    animation: BODY 2s 5s ease-in-out  normal forwards;
+
+}
+body:not(logo_1){
+    animation: body 5s ease-in-out;
+}
+@keyframes body{
+    form{
+        opacity: 0;
+        transform: translateX(-100%);
+        
+    }
+    to{
+       opacity: 1;
+       transform: translateX(50%);
+    }
+}
+article{ 
+    font-size: 18px;
+    background: black;
+    border-left:  3px solid #BCBBBD;
+    border-right: 3px solid #BCBBBD;
+    border-bottom: 2px solid transparent;
+    border-top: 2px solid transparent;
+    margin-right: 102px;
+    margin-left: 102px;
+}
+.DEBUT{
+    background-image: url(ILLUSTRATION/Bathome1.png);
+}
+.PARTIE2{
+    background-color: black;
+    border-left: 3px solid #BCBBBD;
+    border-right: 3px solid #BCBBBD;
+    border-bottom: 2PX solid transparent;
+    border-top: 2px solid transparent;
+    margin-left: 102px;
+    margin-right: 102px;
+    padding-bottom: 800px;
+} 
+header{
+    height: 132px;
+}
+nav{
+    
+height: 132px;
+display: flex;
+position: relative;
+align-items: center;
+border: 3px outset #BCBBBD;
+margin-right: 102px;
+margin-left: 102px;
+padding-left: 40PX;
+padding-top: 25px;
+padding-right: 51PX;
+padding-bottom: 51px;
+}
+nav a {
+    position: relative;
+    top: 30px;
+    text-indent: 8PX;
+    color: white;
+    font-size: 18px;
+}
+a {
+   text-decoration: none; 
+}
+a:hover{
+ font-weight: bold;
+text-decoration: underline;
+}
+#menu{
+    position: relative;
+    left: 650px;
+}
+#menu:active{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#menu:link{
+    text-decoration: underline;
+    font-weight: bolder;
+}
+#jeu{
+    position: relative;
+    right: -700px;
+}
+ul.logo_1{
+    height: 30px;
+    width: 390px;
+    position: relative;
+    left: 249px;
+    float: right;
+    list-style-type: none;
+    top: 260px;
+    border: 1px solid transparent;
+}
+ul.logo_1:hover{
+    border:  1PX solid#ffff00;
+}
+
+.logo2{
+
+    position: relative;
+    left: 30px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.logo2:hover{
+    border: 1px solid #ffff00;
+}
+
+div.acceuil{
+    -moz-width:84.5%;
+    -o-width:84.5%;
+    -webkit-width:84.5%;
+    -ms-width:84.5%;
+    width: 84.5%;
+    height: 110vh;
+    text-align: center;
+    margin-right:102px;
+    margin-top: 150px ;
+    margin-left: 102px;
+    border-right: 3px outset #BCBBBD;
+    border-left: 3px outset #BCBBBD;
+    border-bottom: 2px outset transparent;
+    border-top: 2px outset transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 12px;
+}
+#LOGO{
+    top: 25px;
+    width: 65%;
+    margin-left: 35px;
+}
+#LOGO:hover{
+    border: 1px solid #ffff00;
+}
+a button{
+    position: relative;
+    left: 20px;
+    font-style: medium;
+    font-family: Rajdhani,sans-serif;
+    font-size: 14px;
+    color: white;
+    border: 1PX solid transparent;
+    padding: 15px 20px 15px 20px;
+    margin: 15px;
+}
+[type="submit"],
+ button
+{ cursor: pointer;
+    background-image: -webkit-linear-gradient(45Deg,#d4cfc6 10%,#4e050a 60%);
+    background-image: -moz-linear-gradient(45Deg,#aca79e 10%,#460308 60%);
+    background-image: -o-linear-gradient(45Deg,#e2dccf 10%,#4b0409 60%);
+    background-image: linear-gradient(45Deg,#d1ccc2 10%,#6d060d 60%);
+}
+figure{
+    width: 70%;
+    display: flex;
+    text-align: center;
+}
+.Bathome2{
+    
+    width: 100%;
+    height: 100%;
+    position: relative;
+    border: #0d0e09 1px solid;
+    left: 50px;
+    top: 20px;
+    transform: translate(-50%,-20%);
+    cursor: zoom-in;
+}
+.Zoomed{
+    transform: translate(-50%,-20%);
+    scale: (1.65);
+}
+.Bathome2:hover{
+    zoom: 10%;
+}
+.Bathome3{
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    left: 70px;
+    top: 10px;
+}
+.Bathome3:hover{
+    zoom: 10%;
+}
+.description2{
+    z-index: 3;
+    position: relative;
+    bottom: 80px;
+    left: 100px;
+    width: 220px;
+    height: 65px;
+    border: 1px solid rgb(148, 39, 39);
+    border-radius: 35px;
+    background-color: rgb(148, 39, 39) ;
+}
+#TE2{
+    font-size: 14px;
+    position: relative;
+    left: 0px;
+    bottom: 10px;
+}
+#pho2{
+    position: relative;
+    left: -60px;
+    top: 15px;
+}
+
+.Bathome4{
+    z-index: 1;
+    width: 100%;
+    text-align: center;
+    position: relative;
+    left: 120px;
+    right: 50px;
+    top: 10px;
+}
+.Bathome4:hover{
+    zoom: 10%;
+}
+.description3{
+ z-index: 3;   
+ width: 220px; 
+  height: 65px;
+  position: relative; 
+  left: 150px;
+  bottom: 80px;
+  border: 1px solid rgb(148, 39, 39);
+  background-color: rgb(148, 39, 39);
+  border-radius: 30px;
+}
+#TE3{
+    position: relative;
+    bottom: 15px;
+    font-size: 14px;
+}
+#pho3{
+    position: relative;
+    left: -60px;
+    top: 15px;
+}
+.Bathome5{
+    width: 100%;
+    position: relative;
+    left: 4px;
+}
+
+.Bathome5:hover{
+    zoom: 100%;
+}
+.Bathome6{
+    width: 100%;
+    position: relative;
+    left: 50px;
+}
+.Bathome6:hover{
+zoom: 100%;
+}
+.Bathome7{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    left: 90px;
+}
+.Bathome7:hover{
+    zoom: 100%;
+}
+h1{
+    font-family: 'Rajdhani' sans-serif;
+    font-size: 36px;   
+}
+.h1{
+    font-size: 20px;
+    letter-spacing: 2px;
+    opacity: 3;
+    position: relative;
+    border: 1px solid transparent;
+    width: 1100px;
+    padding: 5px;
+    text-align: justify;
+}
+.h2{
+    position: relative;
+    opacity: 1;
+    width: 1100px;
+    border: 1px solid transparent;
+    padding: 5px;
+    text-align: justify;
+}
+.h3{
+    opacity: 1;
+    position: relative;
+    width: 1130px;
+    border: 1px solid transparent;
+    padding: 5px;
+    text-align: justify;
+}
+.h4{
+    opacity: 1;
+    position: relative;
+    width: 1130px;
+    border: 1px solid transparent;
+    padding: 5px;
+    text-align: justify;
+
+}
+p{
+    font-style: normal;
+    padding-right: 200px;
+    padding-left: 50px;
+    border-right: 1px solid transparent;
+    border-left: 1px solid transparent;
+    opacity: 2;
+    letter-spacing: 1px;
+    font-size: 20px;
+    text-justify: RIGHT;
+
+}
+h2,h3{
+    font-family: 'space Grotesk' sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    left: 50px;   
+}
+h4{
+    font-family: space Grotesk sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    position: relative;
+    left: 25px;
+}
+#League{
+    position: relative;
+    left: 51px;
+    font-family: Space Grotesk sans-serif;
+}
+p.JUSTICE{   
+    position: relative;
+    -webkit-line-clamp: 5;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    left: -24px;
+    text-justify: CENTER;
+    font-size: 16px;
+    opacity: 1.5;
+    font-weight: normal;
+    letter-spacing: 0.1rem;
+}
+
+
+.Bathome12{
+    position: relative;
+    float: right;
+    right: -36px;
+    width: 23%;
+}
+.Bathome12:hover{
+    border: 1px solid #ffff00;
+}
+.BATMAN1{
+    position: relative;
+    left: 50px;
+    text-align: center;
+}
+.BATMAN2{
+    position: relative;
+    left: 19PX;
+    text-align: center;
+}
+.Bathome9{
+    position: relative;
+    left: 30px;
+    width: 50%;
+}
+.Bathome9:hover{
+    zoom: 100%;
+}
+.Bathome8{
+    position: relative;
+    left: 130px;
+    width: 50%;
+}
+.Bathome8:hover{
+    zoom: 100%;
+}
+.Bathome10{
+    position: relative;
+    left: 230px;
+    width: 50%;
+}
+.Bathome10:hover{
+    zoom: 100%;
+}
+#Bathome11{
+    width: 100%;
+    margin: 0;
+    padding: 0;  
+}
+.conteur{
+    background-color: #0d0e09;
+}
+.icon_flèche_1{
+    width: 2%;
+    position:  relative;
+    left: 60PX;    
+    margin-left: 20PX;
+    top: 230px;
+    padding-left: 80px;
+}
+.icon_flèche_2{
+    width: 2%;
+    position: relative;
+    float: right;
+    bottom: 50px;
+    top: 0px;
+    padding-right: 30px;
+    margin-right: 100px;
+
+}
+h5{
+    color: white ;
+    letter-spacing: 1px;
+    font-size: 22px;
+    position: relative;
+    left: 80px;
+    top: 120px;
+}
+ #conteur1{
+    position: relative;
+    left: 300px;
+    top: 130px;
+    width: 480px;
+    font-weight: normal;
+    border: 1PX solid transparent;
+    border-radius: 10px;
+    height: 185px; 
+    background: #1e3038;
+    padding-right: 6px;
+    
+ }
+ #flex{
+    height: 100%;
+    display: flex;
+    
+ } 
+ #NEMESIS{
+    position: relative;
+    left: 60px;
+    font-weight: bold;
+ } 
+ .scroll-batman{
+    position: relative;
+    display: flex;
+    left: 50px;
+
+ } 
+.Bathomeba1 img{
+ position: absolute;
+ width: 135px;
+ height: 185px;
+}
+
+#ACTION{
+    position:relative;
+    line-clamp: 6;
+    left: 97px;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 11px;
+    width: 330PX;
+    height: 200PX;     
+} 
+.Bathome_ba2{ 
+    position: relative;
+    width: 85%;
+    top: 120px;
+}
+ 
+form{
+    font-family: Rajdhani sans-serif;
+    position: relative;
+    top: 0PX;
+    font-size: 12px;
+    position: relative;
+    height: 690px;
+    background: linear-gradient(to right,#9b91917e 30%, #142027c2 80%);
+    line-height: 1.2rem;
+    
+}
+h1{
+    font-size: 22px;
+    font-family: Rajdhani sans-serif;
+    position: relative;
+    left: 500px;
+}
+#email{
+    position: relative;
+    left: 320px;
+}
+[type="email"]{
+    color: white;
+    position: relative;
+    left: 320px;
+    padding: 6px;
+    padding-right: 340px;
+    border-bottom: 1px solid white;
+    border-left: 1PX  solid transparent;
+    border-right: 1PX solid transparent;
+    border-top: 1px solid transparent;
+    background: transparent;
+    
+}
+h2{
+    font-size: 18px;
+    font-weight: normal;
+    position: relative;
+    left: 320px;
+}
+ 
+#cochant {
+    color: gray;
+    font-size: 14px;
+    letter-spacing: 1px;
+    position: relative;
+    left: 270px;
+    line-height: 1.5rem;
+}
+.mois{background: #142027c2;
+    color: gray;
+    }
+select{
+    background-color: transparent;
+    color: gray;
+    position: relative;
+    left: 320px;
+    padding-right: 120px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+[type="news"]{
+    position: relative;
+    left: 320px;
+    background-color:transparent;
+    color: gray;
+    padding-left: 5px;
+    padding-right: 343px;
+    border-bottom: 1PX solid white;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+}
+button{
+     position: relative;
+     left: 420px;
+     color: white;
+     background-color: transparent;
+     padding: 10PX 18PX;
+     margin: 10px ;
+     border: 1PX solid white;
+     letter-spacing: 1px;
+     font-size: 10px;
+}
+legend{
+    position: relative;
+    left: 320px;
+}
+[type="commentaire"]{
+    color: white;
+    position: relative;
+    left: 321px;
+    background-color: transparent;
+    padding-right: 205px;
+    border-bottom: 1px solid white;
+    border-top: 1px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent; 
+}
+[type="submit"]{
+    position: relative;
+    left: 520px;
+    color: white;
+    background-color: rgb(148, 54, 54);
+    border: 1PX solid transparent;
+    padding: 15px 55PX 15PX 55PX;
+
+}
+footer{
+    font-size: 12px;
+    position: relative;
+    height: 200px;
+    background-color: black;
+    color: white;
+    border-bottom: 3px outset transparent;  
+    border-top: 3px outset transparent; 
+    border-left: 3px outset #BCBBBD;
+    border-right: 3px outset #BCBBBD;
+    margin-left: 102px;
+    margin-right: 102px;
+}
+aside{
+    position: relative;
+    top: 0px;
+    color: white;
+    height: 550px;
+    background: black;
+    border-bottom: 3px outset transparent;    
+    border-top: 3px outset transparent;    
+    border-left: 3px outset #BCBBBD;    
+    border-right: 3px outset #BCBBBD;
+    margin-left: 102px;
+    margin-right: 102px;
+}
+
+.icon_guillemets_1{
+    position: relative;
+    width: 5%;
+    top: 100px;
+    left: 220px;
+}
+cite{
+    position: relative;
+    top: 200px;
+    left: 330px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    font-size: 15px;
+    border: 1px solid transparent;   
+}
+#bas{
+    position: relative;
+    top: 20px;
+    left: -312px;
+    font-size: 12px;
+}
+#Dark{
+    font-size: 12px;
+    font-weight: normal;
+    position: relative;
+    top: 236px;
+    left: 460px;
+    line-height: 1.5rem;
+}
+#Joker{
+    position: relative;
+    left: 25px;
+}
+.icon_guillemets_2{
+    width: 5%;
+    position: relative;
+    float: right;
+    right: 150px;
+    top: 250px;
+}
+#WB{
+    position: relative;
+    left: 300px;
+    font-size: 10px;
+    font-weight: normal;
+    
+    
+}
+#LOGOICON{
+    position: relative;
+    top: 20px; 
+    left: 70px;
+}
+#LOGOICON a{
+    position: relative;
+    left: 250px;
+    padding: 18px 3px 18px 3px;
+    border: 1px solid transparent;
+}
+#LOGOICON a:hover{
+    border: 1px solid #ffff00;
+}
+
+.icon{
+    margin-left: 20px;
+}
+.L1{
+    margin-left: 10px;
+}
+#TITRE{
+    position: relative;
+    left: 50px;
+    
+}
+ul.logo_1 a{
+    display: flex;
+    color: white;
+    
+}
+ul.logo_1 li{
+    display: inline;
+    list-style: none;
+}
+ul#choix {
+    display: inline;
+    list-style-type: none;
+}
+ul#choix li{
+    display: inline;
+    flex-direction: row;
+    
+}
+ ul#choix a{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+    left: 400px;
+    margin: 30px;
+    border: 1px solid #142027;
+    padding: 12px 23px 12px 23px;
+}
+
+#CENTER{
+    position: relative;
+    top: 200px;
+    
+} 
+ #icon_player:hover{
+    background-color: #ffffff;
+
+ }
+ #description1
+  {
+    z-index: 1;
+    position: relative;
+    bottom: 100px;
+    width: 200px;
+    height: 55px;
+    border: 1px solid rgb(148, 39, 39);
+    border-radius: 30px;
+    margin: 20px ;
+   background: rgb(148, 54, 54); 
+   text-align: center;
+   backdrop-filter: contrast(12px);
+   -webkit-backdrop-filter: contrast(12px);
+ display: none;
+ }
+
+
+
+ #pho1{
+    position: relative;
+    left: -90px;
+    
+ }  
+ #TE1{
+    font-size: 15px;
+    position: relative;
+    left: 10px;
+    bottom: 30px;
+ }
+ 
+ #Btn-up {
+    display: none; /* Hidden by default */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    }
+
+    #Btn-down {
+    display: block; /* Hidden by default */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    }
+    
+    .btn-icone {
+    float:left;
+    height: auto;
+    width: auto;
+    border-right: 0px solid transparent;
+    text-align: center;
+
+    a {
+    padding: 0;
+    top: -5px;
+    left: 0px;;
+    position: relative;}
+
+}
+
+               
+            
+                
+            
+        
+        
+        
+        
+        
+    
+
+
